@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/space10-community/conversational-form@1.0.1/dist/conversational-form.min.js" crossorigin></script>
+<form id="form" cf-form>
+    <input cf-questions="Hello! Let's create a playlist based on your mood." cf-label="Yes, let's begin!" type="radio" value="0">
+    Start
+  <input cf-question="How are you feeling today?" type="radio" name="mood" value="happy" cf-label="happy">
+  <input type="radio" name="mood" value="sad" cf-label="sad">
+    <input type="radio" name="mood" value="heartbroken" cf-label="heartbroken">
+   <input type="radio" name="mood" value="upset" cf-label="upset">
+   <input type="radio" name="mood" value="focused" cf-label="focused">
+
+
+  <input type="text" name="FNAME" cf-questions="What is your firstname?">
+  <input type="text" name="LNAME" cf-questions="What is your lastname?">
+  <input type="email" name="EMAIL" cf-questions="What is your email?">
+</form>
+<div id="cf-context" role="cf-context" cf-context></div>
+
+
+</body>
+</html>
